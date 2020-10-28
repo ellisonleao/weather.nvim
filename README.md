@@ -2,6 +2,8 @@
 
 A simple Weather floating window in your Neovim
 
+**Only works in Neovim 0.5 versions**
+
 # Installing
 
 Using `vim-plug`
