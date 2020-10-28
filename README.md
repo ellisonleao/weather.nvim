@@ -31,4 +31,4 @@ the city from your IP Address
 
 # Screenshot
 
-![](https://postimg.cc/9ztpNgHc)
+![](https://i.postimg.cc/QNvyCv6K/Screenshot-from-2020-10-27-23-03-07.png)
