@@ -55,7 +55,7 @@ function M.show_weather(city)
     city_param = ""
   end
 
-  local command = string.format("curl https://wttr.in/%s?0", city_param)
+  local command = string.format("curl https://wttr.in/%s'?'0", city_param)
   vim.api.nvim_call_function("termopen", {command})
 end
 
