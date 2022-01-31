@@ -9,7 +9,7 @@ A simple Weather floating window in your Neovim
 Using `vim-plug`
 
 ```
-Plug 'npxbr/weather.nvim'
+Plug 'ellisonleao/weather.nvim'
 ```
 
 # Configuration
