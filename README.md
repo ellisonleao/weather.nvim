@@ -2,7 +2,7 @@
 
 A simple Weather floating window in your Neovim
 
-**Only works in Neovim 0.5 versions**
+Prerequisites: Neovim 0.7+
 
 # Installing
 
@@ -16,8 +16,8 @@ Plug 'ellisonleao/weather.nvim'
 
 City
 
-```
-let g:weather_city = "Amsterdam"
+```lua
+vim.g.weather_city = "Amsterdam"
 ```
 
 # Usage
