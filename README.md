@@ -2,7 +2,7 @@
 
 A simple Weather floating window in your Neovim
 
-Prerequisites: Neovim 0.7+
+Prerequisites: Latest Neovim Stable
 
 # Installing
 
@@ -12,22 +12,29 @@ Using `vim-plug`
 Plug 'ellisonleao/weather.nvim'
 ```
 
+Using `packer.nvim`
+
+```
+use({"ellisonleao/weather.nvim"})
+```
+
 # Configuration
 
-City
+The plugin comes with the default configs, which can be overridden:
 
 ```lua
-vim.g.weather_city = "Amsterdam"
+require("weather").setup({
+    city = "", -- with be used if no param is passed to :Weather
+    win_height = int, -- popup height
+    win_width = int, -- popup width
+})
 ```
 
 # Usage
 
 ```
-:Weather CITY
+:Weather [city]
 ```
-
-If `CITY` is not provided, it will use `g:weather_city` param or default value, which is
-the city from your IP Address
 
 # Screenshot
 
